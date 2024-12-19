@@ -42,7 +42,7 @@ Key features:
 %install
 rm -rf $RPM_BUILD_ROOT
 
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_libexecdir}/docker/cli-plugins}
+install -d $RPM_BUILD_ROOT%{_libexecdir}/docker/cli-plugins
 
 cp -p bin/build/docker-buildx $RPM_BUILD_ROOT%{_libexecdir}/docker/cli-plugins
 
