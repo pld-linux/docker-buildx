@@ -15,7 +15,7 @@ Requires:	docker-ce-cli
 ExclusiveArch:	%go_arches
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_debugsource_packages	0
+%undefine	_debugsource_packages
 
 %description
 buildx is a Docker CLI plugin for extended build capabilities with
