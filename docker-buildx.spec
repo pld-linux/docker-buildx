@@ -1,11 +1,11 @@
 Summary:	Docker CLI plugin for extended build capabilities
 Name:		docker-buildx
-Version:	0.19.3
+Version:	0.21.1
 Release:	1
 License:	Apache v2.0
 Group:		Applications/System
 Source0:	https://github.com/docker/buildx/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	ef64a5eb3045afefc87bf9d9f6d52560
+# Source0-md5:	c31674ee44f69d5ad20132d16acd49b3
 URL:		https://github.com/docker/buildx
 BuildRequires:	golang >= 1.22.0
 BuildRequires:	rpmbuild(macros) >= 2.009
